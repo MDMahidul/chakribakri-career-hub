@@ -1,0 +1,25 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap");
+* {
+  font-family: "Manrope", sans-serif;
+}
+.banner-container{
+      background: linear-gradient(
+    90deg,
+    rgba(126, 144, 254, 0.05) 0%,
+    rgba(152, 115, 255, 0.05) 100%
+  );
+}
+.banner-title {
+  font-weight: 800;
+  font-size: 75px;
+  line-height: 100px;
+}
+.banner-title span{
+    color: #7f90ff;
+}
+.banner-subtitle {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 30px;
+  color: #757575;
+}

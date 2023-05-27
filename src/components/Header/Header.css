@@ -1,0 +1,30 @@
+.navabr {
+  background: linear-gradient(
+    90deg,
+    rgba(126, 144, 254, 0.05) 0%,
+    rgba(152, 115, 255, 0.05) 100%
+  );
+}
+.navabr a{
+    font-size: 16px;
+    font-weight: 500;
+}
+.my-btn {
+  background: linear-gradient(90deg, #7e90fe 0%, #9873ff 100%);
+  border-radius: 8px;
+  border: none !important;
+  padding: 15px 28px !important;
+  font-size: 18px !important;
+  font-weight: 600 !important;
+   transition: 0.3s;
+}
+.my-btn:hover{
+  transform: scale(1.05);
+   box-shadow: 3px 3px 8px #888888;
+}
+.logo-text{
+    color: #1A1919;
+    font-size: 32px !important;
+    font-weight: 800 !important;
+    text-decoration: none;
+}
