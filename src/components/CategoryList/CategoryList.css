@@ -1,0 +1,47 @@
+.section-tite {
+  font-weight: 800;
+  font-size: 48px;
+  line-height: 66px;
+  color: #1a1919;
+  margin-top: 100px;
+}
+
+.section-subtite {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  color: #757575;
+}
+.category.card {
+  background: linear-gradient(
+    90deg,
+    rgba(126, 144, 254, 0.05) 0%,
+    rgba(152, 115, 255, 0.05) 100%
+  ) !important;
+  border-radius: 8px;
+  border: none !important;
+  padding: 30px 20px;
+}
+
+.category .card-img {
+  background: linear-gradient(
+    90deg,
+    rgba(126, 144, 254, 0.1) 0%,
+    rgba(152, 115, 255, 0.1) 100%
+  );
+  border-radius: 8px;
+  padding: 25px 20px;
+}
+.category .card-title {
+  font-weight: 800;
+  font-size: 20px;
+  line-height: 27px;
+  color: #474747;
+  padding-top: 30px;
+}
+.category .card-subtitle {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  color: #a3a3a3;
+}
