@@ -7,7 +7,7 @@ import socialmedia1 from '../../assets/icons/socialmedia1.png';
 
 const CategoryList = () => {
     return (
-      <div className="container">
+      <div className="container pb-5">
         <div className="text-center">
           <h3 className="section-tite">Job Category List</h3>
           <p className="section-subtite">
