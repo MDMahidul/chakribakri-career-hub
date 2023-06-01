@@ -1,5 +1,6 @@
 import React from 'react';
 import './Footer.css'
+import social from '../../assets/social.png';
 
 const Footer = () => {
     return (
@@ -12,6 +13,7 @@ const Footer = () => {
                 There are many variations of passages of Lorem Ipsum , but the
                 majority have suffered alteration in some form.
               </p>
+              <img src={social} alt="" />
             </div>
             <div className="col-md-2">
               <h5 className="footer-subtitle">Company</h5>

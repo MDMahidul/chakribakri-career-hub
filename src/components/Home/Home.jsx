@@ -1,12 +1,17 @@
-import React from 'react';
+import React, { useContext } from 'react';
 import './Home.css'
 import {Button } from "react-bootstrap";
 import { Link } from "react-router-dom";
 import Lottie from 'lottie-react'
 import animation from '../../assets/animation.json';
 import CategoryList from '../CategoryList/CategoryList';
+import Jobs from '../Jobs/Jobs';
+import { JobContext } from '../../App';
 
 const Home = () => {
+    const jobs = useContext(JobContext);
+   /*  const [cart,setCart] = useContext(CartContext); */
+
     return (
       <div className="">
         <div className="banner-container py-5">
@@ -40,6 +45,9 @@ const Home = () => {
           </div>
         </div>
         <CategoryList />
+        {jobs.map((job) => (
+          <Jobs key={job.id} job={job}></Jobs>
+        ))}
       </div>
     );
 };
