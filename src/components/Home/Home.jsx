@@ -45,9 +45,18 @@ const Home = () => {
           </div>
         </div>
         <CategoryList />
-        {jobs.map((job) => (
-          <Jobs key={job.id} job={job}></Jobs>
-        ))}
+        <div className="container mx-auto row">
+          <div className="text-center mb-3">
+            <h3 className="section-tite">Featured Jobs</h3>
+            <p className="section-subtite">
+              Explore thousands of job opportunities with all the information
+              you need. Its your future
+            </p>
+          </div>
+
+            <Jobs ></Jobs>
+
+        </div>
       </div>
     );
 };
