@@ -9,13 +9,18 @@ const Header = () => {
       <Navbar className="navabr py-4" expand="lg">
         <Container>
           <Navbar.Brand>
-            <Link to='/' className="logo-text">ChakriBakri</Link>
+            <Link to="/" className="logo-text">
+              ChakriBakri
+            </Link>
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="m-auto">
               <Nav.Link>
-                <ActiveLink to="/">Statistics</ActiveLink>
+                <ActiveLink to="/">Home</ActiveLink>
+              </Nav.Link>
+              <Nav.Link>
+                <ActiveLink to="/statistics">Statistics</ActiveLink>
               </Nav.Link>
               <Nav.Link>
                 <ActiveLink to="/appliedjobs">Applied Jobs</ActiveLink>
