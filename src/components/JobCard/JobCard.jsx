@@ -1,12 +1,12 @@
 import React from 'react';
-import './JobCart.css';
+import './JobCard.css';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faLocationDot, faDollarSign } from "@fortawesome/free-solid-svg-icons";
 import { Button } from "react-bootstrap";
 import { Link } from "react-router-dom";
 
-const JobCart = ({job}) => {
-    const { name, logo, job_title, category, time, location ,salary} = job;
+const JobCard = ({job}) => {
+    const { id,name, logo, job_title, category, time, location ,salary} = job;
     return (
       <div className="col ">
         <div className="card mb-3 ">
@@ -28,7 +28,7 @@ const JobCart = ({job}) => {
                 Salary: {salary}
               </p>
             </div>
-            <Link to="#">
+            <Link to={`/jobdetails/${job.id}`}>
               <Button className="my-btn" size="">
                 View Details
               </Button>
@@ -39,4 +39,4 @@ const JobCart = ({job}) => {
     );
 };
 
-export default JobCart;
+export default JobCard;
