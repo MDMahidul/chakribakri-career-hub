@@ -10,6 +10,7 @@ import AppliedJobs from "./components/AppliedJobs/AppliedJobs.jsx";
 import Blog from "./components/Blog/Blog.jsx";
 import Error from "./components/Error/Error.jsx";
 import JobDetails from "./components/JobDetails/JobDetails.jsx";
+import { Toaster } from 'react-hot-toast'
 
 const router = createBrowserRouter([
   {
@@ -41,5 +42,6 @@ const router = createBrowserRouter([
 ReactDOM.createRoot(document.getElementById("root")).render(
   <>
     <RouterProvider router={router}></RouterProvider>
+    <Toaster/>
   </>
 );

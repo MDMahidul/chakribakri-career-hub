@@ -1,0 +1,42 @@
+.details-card{
+    background: linear-gradient(90deg, rgba(126, 144, 254, 0.1) 0%, rgba(152, 115, 255, 0.1) 100%);
+    border-radius: 8px;
+}
+.title-text{
+    font-weight: 800;
+    font-size: 16;
+    line-height: 32px;
+    color: #1a1919;
+}
+.card-heading{
+    font-weight: 800;
+font-size: 20px;
+line-height: 27px;
+color: #1A1919;
+}
+.job-details{
+    font-weight: 500;
+    color: #757575;
+    font-size: 16px;
+    line-height: 32px;
+}
+
+.icons {
+    color:#9873FF;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    /* For better browser compatibility */
+    background-clip: text;
+  }
+  .details-title{
+    font-weight: 700;
+font-size: 20px;
+line-height: 27px;
+color: #474747;
+  }
+  .details-info{
+    color: #757575;
+    font-weight: 500;
+font-size: 20px;
+line-height: 27px;
+  }
