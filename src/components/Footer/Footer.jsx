@@ -19,7 +19,7 @@ const Footer = () => {
               <h5 className="footer-subtitle">Company</h5>
               <ul className="footer-links">
                 <li>
-                  <a href="#">Abot Us</a>
+                  <a href="#">About Us</a>
                 </li>
                 <li>
                   <a href="#">Work</a>
