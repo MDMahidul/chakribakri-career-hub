@@ -8,8 +8,8 @@ import { Link } from "react-router-dom";
 const JobCard = ({job}) => {
     const { id,name, logo, job_title, category, time, location ,salary} = job;
     return (
-      <div className="col ">
-        <div className="card mb-3 ">
+      <div className="col">
+        <div className="card mb-3 job-card">
           <img className="card-img-top img-fluid" src={logo} alt="" />
           <div className="">
             <h4 className="job-title">{job_title}</h4>
