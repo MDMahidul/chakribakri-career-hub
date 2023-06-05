@@ -44,7 +44,7 @@ const JobDetails = () => {
       <HeaderBanner>Job Details</HeaderBanner>
       <div className="container mx-auto py-5 my-5">
         <div className="row">
-          <div className="col-md-8">
+          <div className="col-md-7">
             <p className="job-details mb-4">
               <span className="title-text">Job Description: </span>
               {job.job_des}
@@ -63,7 +63,7 @@ const JobDetails = () => {
             </div>
             
           </div>
-          <div className="col-md-4">
+          <div className="col-md-5">
             <div className="card details-card">
               <div className="mb-4">
                 <h5 className="card-heading border-bottom border-2 pb-3">Job Details</h5>

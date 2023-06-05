@@ -20,7 +20,7 @@ const JobCard = ({job}) => {
             </div>
             <div className="d-flex gap-4 loc-sal">
               <p>
-                <FontAwesomeIcon className="me-2" icon={faLocationDot} />{" "}
+                <FontAwesomeIcon className="me-2" icon={faLocationDot} />
                 {location}
               </p>
               <p>
